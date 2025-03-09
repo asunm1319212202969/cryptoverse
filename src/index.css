@@ -1,0 +1,39 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Set a default font family and background color */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+  }
+  
+  /* Add some padding to the main container */
+  #root {
+    padding: 20px;
+  }
+  
+  /* Example class for headings */
+  .heading {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Example class for links */
+  a {
+    color: #1890ff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Example class for statistics */
+  .statistic {
+    margin-bottom: 20px;
+  }
